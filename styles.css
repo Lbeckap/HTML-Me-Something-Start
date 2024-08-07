@@ -102,12 +102,12 @@ img {
   justify-content: space-between;
 }
 
-.destinationEntry p {
+.destinations p {
   max-width: 55%;
   text-align: justify;
 }
 
-.destinationEntry {
+.destinations {
   display: flex;
   flex-direction: column;
 }
@@ -137,6 +137,10 @@ h3 {
   color: white;
 }
 
+.extra-top-margin {
+  margin-top: 60px;
+}
+
 footer {
   text-align: center;
   font-size: small;
@@ -149,8 +153,8 @@ article {
   top: 40%;
   max-width: 5%;
   max-height: 20vh;
-  background-color: rgb(15, 115, 43);
-  color: rgb(15, 115, 43);
+  background-image: linear-gradient(rgb(63, 156, 89), rgb(19, 110, 61));
+  color: transparent;
   overflow: hidden;
   box-shadow: -5px 5px 50px rgba(255, 255, 255, 0.934);
   border-radius: 10px 0px 0px 10px;
@@ -171,8 +175,8 @@ article {
     margin: 15px auto auto auto;
     border-radius: 5px;
     padding: 10px 0px 20px 0px;
-    background-color: white;
-    color: rgb(6, 0, 58);
+    background-image: linear-gradient(rgb(40, 131, 66), rgb(7, 78, 40));
+    color: white;
     box-shadow: none;
     max-height: max-content;
   }
@@ -198,7 +202,7 @@ article {
     flex-direction: column;
   }
 
-  .destinationEntry p {
+  .destinations p {
     max-width: 100%;
   }
 }
@@ -207,10 +211,9 @@ article {
   article:hover {
     max-width: 600px;
     max-height: max-content;
-    box-shadow: -5px 5px 50px rgba(0, 40, 0, 0.283);
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(6, 0, 58);
+    box-shadow: -5px 5px 50px rgba(0, 40, 0, 0.55);
+    padding: 0px 20px 20px 20px;
+    color: white;
   }
 
   article:hover p {
